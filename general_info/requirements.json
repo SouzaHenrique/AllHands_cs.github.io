@@ -4,11 +4,13 @@
 		"item1" : "Garantir a qualidade do atendimento do cliente",
 		"item2" : "sei quem ele é(cliente), entendo o seu problema, eu sou o dono dele e vou resolver",
 		"item3" : "Atendimento espalhado x Implementação da ferramenta de CS",
+		"item3.1" : "Coleta dos dados e geração de números",
 		"item4" : "Implementação de indicadores - CSat e NPS",
-		"item5" : "Coleta dos dados e geração de números",
+		
 		"item6" : "a experiência do cliente é o centro das nossas decisões",
-		"item7" : "costumer centricity",
-		"item8" : "qualidade do nosso onboarding - resultados sustentáveis são produto de contínuo feedback por parte do cliente - importancia do CX",
+		"item6.1" : "costumer centricity",
+		
+		"item7" : "qualidade do nosso onboarding - resultados sustentáveis são produto de contínuo feedback por parte do cliente - importancia do CX",
 	
 	}
 	

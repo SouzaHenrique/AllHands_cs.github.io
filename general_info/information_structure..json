@@ -1,13 +1,13 @@
 {
 
 	"O time" : {
-		"item1" : "Os integrantes", //Cadastro e atendimento ou apenas atendimento?
-		"item2" : "Mudanças recentes(zendesk)", //Lista com pontos de melhoria
+		"item1" : "Os integrantes", //Cadastro e atendimento ou apenas atendimento? - Só atendimento
+		"item2" : "Mudanças recentes(zendesk)", //Lista com pontos de melhoria 
 		
 	},
 	
 	"Indicadores e metas" : {
-		"item1" : "CSAT Chat(consolidado|meta|ações)",,
+		"item1" : "CSAT Chat (consolidado|meta|ações)",,
 		"item2" : "CSAT Ticket(consolidado|meta|ações)",
 		"item3" : "TMR - tempo global para tickets de lvl 2 serem resolvidos(consolidado|meta|ações)",
 		"item4" : "QTD tickets lvl-1 resolvido (consolidado|meta|ações)", //Qtd tickets é um indicador flutuante.
@@ -19,7 +19,10 @@
 		},
 	
 	"Próximos passos" : {
-		"item1" : "Agenda das ações propostas",
+		"item1" : "
+		
+		
+		Agenda das ações propostas",
 	}
 
 }

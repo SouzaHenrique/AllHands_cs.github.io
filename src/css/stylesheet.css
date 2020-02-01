@@ -2,6 +2,15 @@ body, h1, h2, h3, ul, li, p{
   margin: 0px;
   padding: 0px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  list-style: none;
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+body{
+  -ms-overflow-style: none;
 }
 
 img {
@@ -16,7 +25,20 @@ img {
   align-items: center;
   width: 100%;
   height: 100vh;  
+}
+
+.main_container{
   background: url(../img/bg_main_section.jpg) no-repeat center ;
+  background-size: cover;
+}
+
+.second_container{
+  background: url(../img/bg_rockets.png) repeat left;
+  background-size: contain;
+}
+
+.third_container{
+  background: url(../img/bg_indicators_and_targets.jpg) no-repeat center ;
   background-size: cover;
 }
 
@@ -25,21 +47,161 @@ img {
   width: 650px;
   flex-wrap: wrap;
   margin-top: 150px;
-  color: #ffff;  
+  color: #f5f3d0;  
 }
 
-#main_title h1{
+.title{
   font-size: 2.7em;
+  letter-spacing: .2em;
 }
 
 #main_title h2{
-  font-size: 1.5em;
+  font-size: 1.9em;
+  font-family: monospace;  
 }
 
-.footer_title{
-  margin-top: 300px;
-  color: #ffff;
+.navbar ul{
+  display: inline-flex;
+  margin-top: 400px;
 }
+
+.navbar ul li{
+  padding-left: 15px;  
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  color: #f5f3d0;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: monospace;
+}
+
+/*The CS Team*/
+.second_container h1{
+  text-align: center; 
+  letter-spacing: 0em;
+  height: 180px;
+}
+
+.team_members ul{
+  display: inline-flex;
+  padding-top: 50px;
+  margin-bottom: 35px;
+}
+
+.team_members ul li{
+  margin-left: 175px;
+}
+
+.team_members ul li:first-child{
+  margin-left: 0px;
+}
+
+.team_members ul li img{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px #1547EC solid;
+}
+
+.team_members ul li p{
+  text-align: center;
+  padding-top: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+}
+
+/*Indicators and targets*/
+.container_row{
+  flex-direction: row;
+  height: 700px;
+}
+
+.third_container{
+  display: block;
+}
+
+.third_container h1{
+  color: #f5f3d0;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-top: 75px;
+}
+
+#indicators_box{
+  display: flex;    
+  justify-content: center;
+  width: 500px;
+  height: 500px;
+  background-color: #fff;
+  border-radius: 5%;
+  padding-top: 35px;
+}
+
+#indicators_box ul li p{
+  line-height: 100px;
+}
+
+#metrics_keys{
+  width: 250px;
+}
+
+#metrics_keys p{
+  border-bottom: 2px solid #000;
+  font-size: 22px;
+  font-family: monospace, 'Courier New', Courier,´;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #707070;  
+}
+
+#matrics_values{
+  margin-left: 25px;
+  font-size: 38px;
+  font-family: monospace, 'Courier New', Courier,´;
+  font-weight: bold;
+  color: #707070;
+}
+
+#matrics_values p{
+  margin-top: 10px;
+}
+
+#metrics_values ul li{
+  position: relative;  
+}
+
+#matrics_values p::after{
+  content: '100%';
+  position: absolute;  
+  left: 525px;  
+  font-size: 35px;
+  color: transparent;
+  text-shadow: 0 0 6px rgba(65,65,64,0.5);  
+}
+
+#indicators_box_nobg{
+  width: 600px;
+  height: 500px;
+  border-radius: 5%;
+  margin-left: 100px;
+}
+
+#indicators_box_nobg h1{
+  font-size: 2.5em;
+  text-align: center;
+  line-height: 1.5;
+  /*Font border*/
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+
+
+
 
 
 

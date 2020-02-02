@@ -10,7 +10,8 @@ body::-webkit-scrollbar{
 }
 
 body{
-  -ms-overflow-style: none;
+  -ms-overflow-style: none;  
+  overflow-x: hidden;
 }
 
 img {
@@ -21,7 +22,7 @@ img {
 .container{
   display: flex;
   flex-direction: column;  
-  justify-content: center;
+  justify-content: center;  
   align-items: center;
   width: 100%;
   height: 100vh;  
@@ -31,8 +32,7 @@ img {
   background: url(../img/bg_main_section.jpg) no-repeat center ;
   background-size: cover;
 }
-
-.second_container{
+.second_container, .fourth_container, .fifth_container, .sixth_container{
   background: url(../img/bg_rockets.png) repeat left;
   background-size: contain;
 }
@@ -40,10 +40,6 @@ img {
 .third_container{
   background: url(../img/bg_indicators_and_targets.jpg) no-repeat center ;
   background-size: cover;
-}
-
-.fourth_container{
-  background: #F6F6F6;
 }
 
 #main_title{
@@ -100,7 +96,7 @@ img {
 }
 
 .team_members ul li{
-  margin-left: 175px;
+  margin-left: 175px;  
 }
 
 .team_members ul li:first-child{
@@ -112,6 +108,10 @@ img {
   height: 120px;
   border-radius: 50%;
   border: 2px #1547EC solid;
+  
+  -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+  -moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+  box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
 }
 
 .team_members ul li p{
@@ -128,6 +128,7 @@ img {
   flex-direction: row;
   height: 663px;
   align-items: flex-start;
+  padding-bottom: 15px;
 }
 
 .third_container{
@@ -150,6 +151,10 @@ img {
   background-color: #fff;
   border-radius: 5%;
   padding-top: 35px;
+
+  -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+  -moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+  box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
 }
 
 #indicators_box ul li p{
@@ -204,13 +209,23 @@ img {
 #indicators_box_nobg h1{
   font-size: 2.5em;
   text-align: center;
-  line-height: 1.5;
+  line-height: 1.5; 
+  padding: 7px; 
   /*Font border*/
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+
+#indicators_box_nobg h1:first-of-type{
+  padding-top: 85px;
+}
+
  /*Customer Centricity*/
  .fourth_container{
    position: relative;
+ }
+
+ .fourth_container.container div{
+   margin-bottom: 5px;
  }
 
  .fourth_container h1{
@@ -219,12 +234,23 @@ img {
   padding-top: 75px;  
 }
 
+.fourth_container .container_row img{
+  padding-top: 35px;
+  width: 575px;
+  height: auto;
+  border-radius: 50%;  
+}
+
+.fourth_container p{
+  font-size: 16px;
+}
+
 .cc_attributes_list#left_list{
-  padding-right: 35px;
+  padding-right: 55px;
 }
 
 .cc_attributes_list#right_list{
-  padding-left: 35px;
+  padding-left: 55px;
 }
 
 .cc_attributes_list li p{
@@ -239,9 +265,7 @@ img {
 }
 
 .fourth_container p{
-  text-align: center;
-  margin-bottom: 15px;
-  
+  text-align: center;  
   font-weight: bold;
   color: #292929;
   font-size: 19px;
@@ -249,6 +273,91 @@ img {
   width: 100%;
   line-height: 1.8em;
 }
+
+/*The FeedBack Loop*/
+.fifth_container {
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.fifth_container::-webkit-scrollbar{
+  display: none;
+}
+
+.fifth_container h1{
+  color: #f5f3d0;
+  width: 100%;
+  left: 780px;
+  position: absolute;
+  z-index: 1;  
+  top: 25px;
+  left: 680px;
+}
+
+.fifth_container img{
+  max-width: 60%;
+  position: absolute;  
+  padding-right: 25px;
+  top: 0.1px
+}
+
+.fifth_container ul{
+  position: absolute;
+  left: 110px;
+}
+
+.fifth_container ul li{
+  padding-top: 25px;
+}
+
+.fifth_container p{  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 28px;
+  word-break: keep-all;
+  width: 500px;
+  text-align: center;
+  color: #B8D8E8;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  line-height: 60px;
+}
+
+/*Next steps*/
+.sixth_container p{
+  padding-top: 15px;
+  font-size: 22px;
+  font-family: monospace;
+}
+
+#list_nextsteps{
+  padding-top: 50px;
+}
+
+#list_nextsteps:nth-child(2){
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+#list_nextsteps li{
+  margin-top: 15px;
+}
+
+#list_nextsteps > :first-child{
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  font-size: 4px ;  
+}
+
+#list_nextsteps li p{
+  word-break: break-all;
+  width: 275px;
+  text-align: center;
+}
+
 
 
 

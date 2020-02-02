@@ -32,7 +32,7 @@ img {
   background: url(../img/bg_main_section.jpg) no-repeat center ;
   background-size: cover;
 }
-.second_container, .fourth_container, .fifth_container, .sixth_container{
+.second_container, .fourth_container, .fifth_container, .sixth_container, .seventh_container{
   background: url(../img/bg_rockets.png) repeat left;
   background-size: contain;
 }
@@ -63,6 +63,7 @@ img {
 
 #main_title h1{
   color: #f5f3d0;
+  font-size: 45px;
 }
 
 .navbar ul{
@@ -78,7 +79,7 @@ img {
   text-decoration: none;
   color: #f5f3d0;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 26px;
   font-family: monospace;
 }
 
@@ -128,7 +129,7 @@ img {
   flex-direction: row;
   height: 663px;
   align-items: flex-start;
-  padding-bottom: 15px;
+  padding-bottom: 25px;
 }
 
 .third_container{
@@ -207,16 +208,17 @@ img {
 }
 
 #indicators_box_nobg h1{
-  font-size: 2.5em;
+  font-size: 3.5em;
   text-align: center;
   line-height: 1.5; 
-  padding: 7px; 
+  padding: 5px; 
   /*Font border*/
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-family: 'Pacifico', cursive;
 }
 
 #indicators_box_nobg h1:first-of-type{
-  padding-top: 85px;
+  padding-top: 60px;
 }
 
  /*Customer Centricity*/
@@ -294,7 +296,7 @@ img {
   position: absolute;
   z-index: 1;  
   top: 25px;
-  left: 680px;
+  left: 680px;  
 }
 
 .fifth_container img{
@@ -319,10 +321,11 @@ img {
   word-break: keep-all;
   width: 500px;
   text-align: center;
-  color: #B8D8E8;
+  color: #6FBFE6;
   font-weight: bold;
   letter-spacing: 0.1em;
   line-height: 60px;
+  
 }
 
 /*Next steps*/
@@ -330,6 +333,8 @@ img {
   padding-top: 15px;
   font-size: 22px;
   font-family: monospace;
+  color: #292929;
+  font-weight: bold;
 }
 
 #list_nextsteps{
@@ -355,11 +360,45 @@ img {
 #list_nextsteps li p{
   word-break: break-all;
   width: 275px;
-  text-align: center;
+  text-align: center;  
 }
 
+/*Agenda*/
+.seventh_container{
+  position: relative;
+  overflow-y: hidden;
+}
 
+.seventh_container img{
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
 
+.data{
+  font-size: 2.5em;
+  height: 80px;
+}
+
+.seventh_container .container ul li{
+  padding-top: 45px;
+  height: 180px;
+  margin-top: 50px;
+}
+
+.seventh_container .container ul li p{
+  width: 250px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #707070;
+  font-size: 22px;
+  
+}
+
+.container_sidebyside{
+  max-width: 20%;
+  justify-content: start;
+  padding-top: 75px;
+}
 
 
 

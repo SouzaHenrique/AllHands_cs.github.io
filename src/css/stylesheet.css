@@ -42,6 +42,10 @@ img {
   background-size: cover;
 }
 
+.fourth_container{
+  background: #F6F6F6;
+}
+
 #main_title{
   display: flex;
   width: 650px;
@@ -53,11 +57,16 @@ img {
 .title{
   font-size: 2.7em;
   letter-spacing: .2em;
+  color: #292929;
 }
 
 #main_title h2{
   font-size: 1.9em;
   font-family: monospace;  
+}
+
+#main_title h1{
+  color: #f5f3d0;
 }
 
 .navbar ul{
@@ -117,7 +126,8 @@ img {
 /*Indicators and targets*/
 .container_row{
   flex-direction: row;
-  height: 700px;
+  height: 663px;
+  align-items: flex-start;
 }
 
 .third_container{
@@ -129,6 +139,7 @@ img {
   letter-spacing: 0em;
   text-align: center;
   padding-top: 75px;
+  padding-bottom: 85px;
 }
 
 #indicators_box{
@@ -174,7 +185,7 @@ img {
   position: relative;  
 }
 
-#matrics_values p::after{
+#matrics_values label{
   content: '100%';
   position: absolute;  
   left: 525px;  
@@ -197,9 +208,47 @@ img {
   /*Font border*/
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+ /*Customer Centricity*/
+ .fourth_container{
+   position: relative;
+ }
 
+ .fourth_container h1{
+  letter-spacing: 0em;
+  text-align: center;
+  padding-top: 75px;  
+}
 
+.cc_attributes_list#left_list{
+  padding-right: 35px;
+}
 
+.cc_attributes_list#right_list{
+  padding-left: 35px;
+}
+
+.cc_attributes_list li p{
+  font-weight: bold;
+  color: #A1DCEB;
+  margin-top: 78px;
+  text-align: center;
+  word-break: keep-all;
+  font-size: 22px;
+  width: 250px;
+  align-self: start;  
+}
+
+.fourth_container p{
+  text-align: center;
+  margin-bottom: 15px;
+  
+  font-weight: bold;
+  color: #292929;
+  font-size: 19px;
+  word-break: keep-all;
+  width: 100%;
+  line-height: 1.8em;
+}
 
 
 

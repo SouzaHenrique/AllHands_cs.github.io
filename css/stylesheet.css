@@ -330,16 +330,20 @@ img {
 }
 
 /*Next steps*/
+.sixth_container h1{
+  padding-top: 75px;
+}
 .sixth_container p{
   padding-top: 15px;
+  padding-bottom: 5px;
   font-size: 22px;
   font-family: monospace;
   color: #292929;
-  font-weight: bold;
+  font-weight: bold;  
 }
 
 #list_nextsteps{
-  padding-top: 50px;
+  padding-top: 15px;
 }
 
 #list_nextsteps:nth-child(2){
@@ -370,6 +374,10 @@ img {
   overflow-y: hidden;
 }
 
+.seventh_container h1{
+  padding-top: 75px;
+}
+
 .seventh_container img{
   position: absolute;
   right: 0px;
@@ -398,7 +406,7 @@ img {
 .container_sidebyside{
   max-width: 20%;
   justify-content: start;
-  padding-top: 75px;
+  padding-top: 50px;
 }
 
 

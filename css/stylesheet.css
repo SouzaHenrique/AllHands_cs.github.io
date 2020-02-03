@@ -79,7 +79,7 @@ img {
   text-decoration: none;
   color: #f5f3d0;
   font-weight: bold;
-  font-size: 26px;
+  font-size: 20px;
   font-family: monospace;
 }
 
@@ -194,7 +194,7 @@ img {
 #matrics_values label{
   content: '100%';
   position: absolute;  
-  left: 525px;  
+  left: 450px;  
   font-size: 35px;
   color: transparent;
   text-shadow: 0 0 6px rgba(65,65,64,0.5);  
@@ -258,7 +258,7 @@ img {
 .cc_attributes_list li p{
   font-weight: bold;
   color: #A1DCEB;
-  margin-top: 78px;
+  margin-top: 50px;
   text-align: center;
   word-break: keep-all;
   font-size: 22px;

@@ -10,4 +10,3 @@ const titulo = document.querySelector('.animated_tittle');
 
 
 typeWriter(titulo);
-

@@ -163,6 +163,7 @@ img {
 }
 
 #indicators_box{
+  
   display: flex;    
   justify-content: center;  
   width: 500px;

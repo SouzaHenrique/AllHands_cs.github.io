@@ -164,12 +164,12 @@ img {
 
 #indicators_box{
   display: flex;    
-  justify-content: center;
+  justify-content: center;  
   width: 500px;
   height: 500px;
   background-color: #fff;
   border-radius: 5%;
-  padding-top: 35px;
+  padding-top: 100px;
 
   -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
   -moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
@@ -185,7 +185,7 @@ img {
 }
 
 #metrics_keys p{
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid #707070;
   font-size: 22px;
   font-family: monospace, 'Courier New', Courier,´;
   letter-spacing: 1px;
@@ -361,30 +361,34 @@ img {
   font-weight: bold;  
 }
 
-#list_nextsteps{
+.list_nextsteps{
   padding-top: 15px;
 }
 
-#list_nextsteps:nth-child(2){
+.list_nextsteps:nth-child(2){
   margin-left: 150px;
   margin-right: 150px;
 }
 
-#list_nextsteps li{
+.list_nextsteps li{
   margin-top: 15px;
 }
 
-#list_nextsteps > :first-child{
+.list_nextsteps > :first-child{
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.5em;
   font-size: 4px ;  
 }
 
-#list_nextsteps li p{
-  word-break: break-all;
+.list_nextsteps li p{
+  word-break: normal;
   width: 275px;
   text-align: center;  
+}
+
+.list_proposta p{
+  line-height: 27px;
 }
 
 /*Agenda*/

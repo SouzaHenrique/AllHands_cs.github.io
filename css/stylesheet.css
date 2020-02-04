@@ -58,12 +58,28 @@ img {
 
 #main_title h2{
   font-size: 1.9em;
-  font-family: monospace;  
+  font-family: monospace;   
 }
 
 #main_title h1{
   color: #f5f3d0;
-  font-size: 45px;
+  font-size: 45px;  
+}
+
+.animated_tittle::after{
+  content : '|';
+  margin-left: 5px;
+  opacity: 1;
+  animation: blink .7s infinite;
+}
+
+@keyframes blink{
+  0% , 100% {
+    opacity: 1;
+  }
+  50%{
+    opacity: 0;
+  }
 }
 
 .navbar ul{
@@ -399,8 +415,7 @@ img {
   width: 250px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #707070;
-  font-size: 22px;
-  
+  font-size: 22px;  
 }
 
 .container_sidebyside{

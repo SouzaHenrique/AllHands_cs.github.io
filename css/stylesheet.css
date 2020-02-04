@@ -143,9 +143,9 @@ img {
 /*Indicators and targets*/
 .container_row{
   flex-direction: row;
-  height: 663px;
+  height: 71vh;
   align-items: flex-start;
-  padding-bottom: 25px;
+  padding-bottom: 30px;
 }
 
 .third_container{

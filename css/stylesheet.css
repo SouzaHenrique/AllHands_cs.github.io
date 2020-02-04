@@ -11,7 +11,9 @@ body::-webkit-scrollbar{
 
 body{
   -ms-overflow-style: none;  
-  overflow-x: hidden;
+  overflow-x: hidden;  
+  height: 100vh;
+  overflow: hidden;
 }
 
 img {
@@ -300,6 +302,7 @@ img {
   position: relative;
   overflow-y: hidden;
   overflow-x: hidden;
+  justify-content: start;
 }
 
 .fifth_container::-webkit-scrollbar{
@@ -325,7 +328,8 @@ img {
 
 .fifth_container ul{
   position: absolute;
-  left: 110px;
+  left: 90px;
+  padding-top: 140px;
 }
 
 .fifth_container ul li{
@@ -341,8 +345,7 @@ img {
   color: #6FBFE6;
   font-weight: bold;
   letter-spacing: 0.1em;
-  line-height: 60px;
-  
+  line-height: 45px;  
 }
 
 /*Next steps*/

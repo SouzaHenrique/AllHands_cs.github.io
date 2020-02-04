@@ -8,7 +8,7 @@
   <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
   <title>All Hands! 1.0 - CS Team</title>
 </head>
-<body>
+<body class="fullpage">
   
   <!--Main Section-->
   <section class="container main_container">    
@@ -174,7 +174,6 @@
       </li>      
     </ul>
     
-    
   </section>
 
   <!--Next steps-->
@@ -293,6 +292,11 @@
   </section>
 
   <script src="./js/script.js"></script>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"> </script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"> </script>
+  <script src="./js/jquery.fullpage.min.js"> </script>
+  <script>
+    $('body').fullpage();
+  </script>
 </body>
 </html>

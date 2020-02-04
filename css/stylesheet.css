@@ -404,7 +404,7 @@ img {
 .seventh_container img{
   position: absolute;
   right: 0px;
-  bottom: 0px;
+  bottom: -45px;
 }
 
 .data{
@@ -412,9 +412,12 @@ img {
   height: 80px;
 }
 
+.agenda_data_list{
+  padding-top: 25px;
+}
+
 .seventh_container .container ul li{
-  padding-top: 45px;
-  height: 180px;
+  padding-top: 45px;  
   margin-top: 50px;
 }
 
@@ -423,6 +426,7 @@ img {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #707070;
   font-size: 22px;  
+  text-align: center;  
 }
 
 .container_sidebyside{
